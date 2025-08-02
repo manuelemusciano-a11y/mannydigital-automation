@@ -1,10 +1,10 @@
-name: MannyDigitalLegacy_Captions
-description: Generate Instagram captions for digital marketing tips.
+name: MannyDigitalLegacy_Ads
+description: Generate short ad copy for social media.
 model: gpt-4o
 temperature: 0.8
-max_tokens: 300
+max_tokens: 200
 prompt: |
-  Write 3 Instagram captions (each under 20 words) about why consistency matters in digital marketing. Include 2 hashtags per caption.
+  Write a 30-word Facebook ad for Manny Digital Legacy that motivates entrepreneurs to start an online business. Include a strong call to action.
 steps:
   - generate
   - preview
