@@ -1,12 +1,10 @@
-name: MannyDigitalLegacy_Reels
-description: Generate short Instagram Reels scripts for Manny Digital Legacy.
+name: MannyDigitalLegacy_Captions
+description: Generate Instagram captions for digital marketing tips.
 model: gpt-4o
 temperature: 0.8
-max_tokens: 500
+max_tokens: 300
 prompt: |
-  Create a 15-second Instagram Reel script for Manny Digital Legacy teaching this tip:
-  "Consistency beats perfection. Posting regularly beats waiting for perfection.
-  Show up daily—even simple posts build trust and engagement!" Keep it under 50 words.
+  Write 3 Instagram captions (each under 20 words) about why consistency matters in digital marketing. Include 2 hashtags per caption.
 steps:
   - generate
   - preview
